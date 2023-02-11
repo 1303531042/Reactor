@@ -1,4 +1,4 @@
-package com.kuing.netty.reactor;
+package com.kuing.netty.reactor.test;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
@@ -9,16 +9,13 @@ import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
-import io.netty.util.concurrent.DefaultEventExecutorChooserFactory;
-import io.netty.util.concurrent.EventExecutorChooserFactory;
-import io.netty.util.concurrent.MultithreadEventExecutorGroup;
 
 import java.io.BufferedInputStream;
 import java.net.Socket;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class Test {
+public class GeneralSocketConnectNettyServerTest {
 
 
      static class Server {
